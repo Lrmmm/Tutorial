@@ -9,9 +9,9 @@ ref : https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5
     ```shell
     wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 
-    chmod +x shadowsocks-all.sh
+    sudo chmod +x shadowsocks-all.sh
 
-    ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+    sudo ./shadowsocks-all.sh 2>&1 | sudo tee shadowsocks-all.log
     ```  
 2. 选择ss的服务端版本  
     <img src="https://picture-1305820021.cos.ap-shanghai.myqcloud.com/res/202306040006895.png"/>  
