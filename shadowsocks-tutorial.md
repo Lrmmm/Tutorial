@@ -29,7 +29,7 @@ ref : https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5
     ```  
 8. 优化服务器连接安装BBR加速服务
     ```shell
-    wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+    wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &&sudo chmod +x bbr.sh &&sudo ./bbr.sh
     ```  
 9. 用warp伪装VPS的ip，原理就是把VPS的出口流量转发到另一个IP（由cloudfare免费提供）上进行代理    
     refs:https://github.com/P3TERX/warp.sh
