@@ -1,5 +1,5 @@
 # Vscode调试配置
-```
+```json
 {
     
     "version": "0.2.0",
