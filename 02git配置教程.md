@@ -32,3 +32,8 @@
     ```shell
     vim ~/.ssh/authorized_keys
     ```
+4. 部分服务器要更改目录权限
+   ```shell
+   chmod 700 .ssh
+   chmod 600 .ssh/authorized_keys
+   ```
