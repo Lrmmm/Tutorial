@@ -11,13 +11,13 @@ sudo netstat -tulpn | grep 16555
 # 安装GCC/更新最新版GCC
 ### 1.卸载默认GCC
 ```shell
-rpm -q gcc  // 查看gcc版本号
-rpm -e [第二步查到的版本号] 
+sudo rpm -q gcc  // 查看gcc版本号
+sudo rpm -e [第二步查到的版本号] 
 ```
 ### 2.安装scl和gc
 ```shell
-yum install centos-release-scl
-yum install -y devtoolset-11-gcc devtoolset-11-gcc-c++
+sudo yum install centos-release-scl
+sudo yum install -y devtoolset-11-gcc devtoolset-11-gcc-c++
 scl enable devtoolset-11 bash
 ```
 ### 3.配置用户变量和系统变量
