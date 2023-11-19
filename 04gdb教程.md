@@ -9,3 +9,8 @@ https://ftp.gnu.org/gnu/gdb/
 make
 make install
 ```
+
+## 查看虚函数表
+```shell
+(gdb) p (long long*)*((long long*)0x402040)
+```
